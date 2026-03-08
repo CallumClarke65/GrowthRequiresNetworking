@@ -185,9 +185,9 @@ function MainClass::Init()
 
     /* Check whether saved data are in the current save
      * format.
-     */
+    */
     if (!this.load_saved_data) {
-        Helper.ClearAllSigns();
+        //Helper.ClearAllSigns();
     }
 
     // Create company list
