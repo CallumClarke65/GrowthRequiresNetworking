@@ -741,7 +741,7 @@ function DefineCargosBySettings(economy)
             ::CargoDecay <- [0.4,0.2,0.2,0.1,0.1];
             break;
         case(Economies.FIRS3__EXTREME): // FIRS 3 - Extreme
-            ::CargoLimiter <- [0,2];
+            ::CargoLimiter <- [0];
             ::CargoCat <- [[0,2],
                        [12,13,14,16,20,28],
                        [3,7,8,15,21,23,24,25,26,27,29,30],
